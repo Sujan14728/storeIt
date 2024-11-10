@@ -30,6 +30,14 @@ export const calculatePercentage = (sizeInBytes: number) => {
   return Number(percentage.toFixed(2));
 };
 
+export function calculateAngle(
+  used: number,
+  total: number = 2147483648
+): number {
+  const percentage = (used / total) * 100;
+  return (percentage / 100) * 360;
+}
+
 export const getFileType = (fileName: string) => {
   const extension = fileName.split('.').pop()?.toLowerCase();
 
