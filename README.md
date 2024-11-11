@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## StoreIt
+This project is a storage solution for storing images,documents,medias,etc, as well as share them with other users built as a learning exercise by following a YouTube tutorial by Javascript Mastery(JSM). It helped me gain hands-on experience with Appwrite, NextJS 15, NextJS server actions, dynamic pages and components,etc. 
 
-## Getting Started
+## Overview
+This application simulates basic Google Drive functionality, where users can:
+- Upload different types of files
+- Organize files by folders
+- Share files with other users securely
+- View and manage uploaded media
+By building this project, I gained hands-on experience with **Appwrite** for backend services, **TypeScript**, and **Tailwind CSS** for responsive and modern UI styling.
 
-First, run the development server:
+## Features
+- User authentication and authorization along with OTP verification
+- File upload and storage using Appwrite
+- Folder structure and file organization
+- File sharing with other registered users
+- Responsive design with Tailwind CSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
+- **Frontend Framework:** Next.js 15 with TypeScript
+- **Backend Services:** Appwrite for database, authentication, and file storage
+- **Styling:** Tailwind CSS for responsive and modern UI
+- **Language:** TypeScript
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Credits
+This project was created with inspiration from various online resources and tutorials on YouTube. Special thanks to Javascript Mastery(JSM) for their guidance and teaching.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Demo
+[store-it-teal.vercel.app](https://store-it-teal.vercel.app)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
