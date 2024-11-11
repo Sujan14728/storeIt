@@ -1,5 +1,5 @@
 ## StoreIt
-This project is a storage solution for storing images,documents,medias,etc, as well as share them with other users built as a learning exercise by following a YouTube tutorial by Javascript Mastery(JSM). It helped me gain hands-on experience with Appwrite, NextJS 15, NextJS server actions, dynamic pages and components,etc. 
+This project is a storage solution for storing images, documents, medias, etc, as well as share them with other users built as a learning exercise by following a YouTube tutorial by Javascript Mastery(JSM). It helped me gain hands-on experience with Appwrite, NextJS 15, NextJS server actions, dynamic pages and components,etc. 
 
 ## Overview
 This application simulates basic Google Drive functionality, where users can:
