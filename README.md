@@ -23,7 +23,8 @@ By building this project, I gained hands-on experience with **Appwrite** for bac
 - **Language:** TypeScript
 
 ## Credits
-This project was created with inspiration from various online resources and tutorials on YouTube. Special thanks to Javascript Mastery(JSM) for their guidance and teaching.
+This project was created with inspiration from various online resources and tutorials on YouTube. Special thanks to Javascript Mastery(JSM) for their guidance and teaching. 
+Video Reference: https://www.youtube.com/watch?v=lie0cr3wESQ&t=2s
 
 
 ## Demo
